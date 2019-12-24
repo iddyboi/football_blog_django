@@ -17,3 +17,6 @@ def home(request):
 def about(request):
    
     return render(request,'blog/about.html')
+
+def footballers(request):
+    return render(request,'blog/footballers.html')

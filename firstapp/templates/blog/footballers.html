@@ -1,0 +1,31 @@
+{% extends 'blog/base.html' %}
+
+<!-- content -->
+{% block content %}
+<div class="container">
+  <div class="row border-bottom">
+    <div class="col-md-8">
+      <h3>Mason Greenwood</h3>
+      <h4>Man Utd</h4>
+      <h5 class="text-muted">Striker</h5>
+      <p>
+        Greenwood joined Manchester United at the age of six, playing at the
+        club's development school in Halifax.[5] After progressing through the
+        academy ranks, he joined up with the Under-18 squad for the 2017–18
+        season, despite being eligible for the Under-16s, and finished as top
+        scorer of the U18 Premier League North with 17 goals in 21 games.[6] In
+        May 2018, Greenwood was named Player of the Tournament as the youth side
+        won the ICGT Trophy in the Netherlands.[7]
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h3>Player Info</h3>
+      {% load static %}
+      <img src="{% static 'blog/images/Mason_Greenwood.jpeg'%}" alt="" />
+      <h6 class="text-warning mt-3">Goals</h6>
+      <p>7 Goals all comp</p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
