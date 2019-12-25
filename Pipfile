@@ -6,8 +6,8 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-django-crispy-forms = "*"
 django = "*"
+django-crispy-forms = "*"
 pillow = "*"
 
 [requires]
